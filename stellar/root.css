@@ -1,0 +1,15 @@
+:root {
+
+    --global-font-size: 16px;
+    --bg-color:#0f172a;
+    --accent:#9e26ff;
+    --color-title: #c5cad6;
+    --color-testo:#91a0b6;
+    --color-btn-hover: #f8f9fc;
+    --global-width: 1200px;
+    --font-family: Poppins;
+
+
+/* background: radial-gradient(#c285ff, #362861); */
+
+}

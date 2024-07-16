@@ -1,0 +1,103 @@
+
+.container {
+
+    background-color: var(--bg-color);
+}
+
+.sec4__title { /*mi se pastreaza spatiu, nu stiu de ce*/
+    max-width: 55%;
+    text-align: center;
+    gap: 10px !important;
+}
+
+.sec4__boxes {
+    column-gap: 20px;
+    max-width: 70%;
+    margin-top: 40px;
+}
+
+.sec4__boxes-item {
+    
+    border: grey solid 1px;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+
+.sec4__boxes-item-content > i {
+    border-radius: 50px;
+    border: grey solid 1px;
+    size: 5rem;
+}
+.sec4__boxes-item-content >  p {
+    font-size: 0.9rem;
+
+    
+}
+
+.sec4__boxes-cta {
+    gap: 10px;
+}
+.sec4__boxes-cta >  p{
+    font-size: 0.8rem;
+}
+.sec4__boxes-cta >  i {
+    color: violet;
+    size: 0.9rem;
+}
+
+
+.sec4__bottom-tile {
+    max-width: 60%;
+    margin-left: 15%;
+    padding: 0px;
+    
+    
+}
+.sec4__bottom-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 70px;
+}
+
+.sec4__bottom-container .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: auto;
+
+}
+
+.sec4__bottom-container .row__box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.row__box-item-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2px;
+    height: 30px;
+}
+.row__box-item-title > i {
+    color: var(--color-testo);
+}
+
+.row__box-item-content > p {
+    font-size: 0.75rem;
+}
+.row__box-item {
+    align-items: flex-start;
+    gap: 40px;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+}
+
+
